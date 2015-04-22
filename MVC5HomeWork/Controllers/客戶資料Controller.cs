@@ -115,6 +115,12 @@ namespace MVC5HomeWork.Controllers
             return RedirectToAction("Index");
         }
 
+        public ActionResult Report()
+        {
+            var data = db.ViewOfReport.ToList();
+            return View(data);
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
