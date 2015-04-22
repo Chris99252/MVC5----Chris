@@ -190,6 +190,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MVC5HomeWorkModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Partials\客戶聯絡人.cs" />
+    <Compile Include="Models\Partials\客戶資料.cs" />
+    <Compile Include="Models\Partials\客戶銀行資訊.cs" />
     <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
       <DependentUpon>MVC5HomeWorkModel.tt</DependentUpon>
     </Compile>
