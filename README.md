@@ -1,6 +1,8 @@
 # MVC5-HomeWork-Chris
 ASP.NET MVC 5 開發實戰 (台北)  第一週作業，使用 『客戶資料 這個資料庫做開發。
 
+##[課程實作進度回報](https://docs.google.com/forms/d/16JAJ2A1Geb-Dl5Bl0TzR0xjGZomTbxBg_YZEcN-e8OY/viewform)
+
 第一周作業：
 * 請使用 "客戶資料" 這個資料庫做開發 (如附件檔案)
 * 請實作出「客戶資料管理」、「客戶聯絡人管理」與「客戶銀行帳戶管理」等簡易 CRUD 功能 (盡量做各種功能出來)
