@@ -19,6 +19,7 @@ namespace MVC5HomeWork.Models
         public string 姓名 { get; set; }
         [EmailAddress(ErrorMessage = "請輸入正確的信箱格式")]
         public string Email { get; set; }
+        [RegularExpression(@"\d{4}-\d{6}", ErrorMessage = "請輸入正確的電話格式")]
         public string 手機 { get; set; }
         public string 電話 { get; set; }
 
